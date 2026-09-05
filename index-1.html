@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zamm — Belajar. Berkembang. Menciptakan.</title>
+<meta name="description" content="Website pribadi Zamm — anak muda yang belajar teknologi, AI, dan coding, serta membantu orang lain lewat skill yang sedang dibangunnya.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow" aria-hidden="true"></div>
+
+<header class="nav">
+  <a href="#top" class="nav__brand">Zamm</a>
+  <nav aria-label="Navigasi utama">
+    <ul class="nav__links">
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#skill">Skill</a></li>
+      <li><a href="#jasa">Jasa</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="top" class="hero">
+    <p class="hero__eyebrow">zamm.dev</p>
+    <h1 class="hero__title">
+      <span class="line">Selamat datang di</span>
+      <span class="line hero__glow">website Zamm</span>
+    </h1>
+    <p class="hero__subtitle">Belajar. Berkembang. Menciptakan sesuatu yang berarti.</p>
+    <a href="#kontak" class="btn btn--primary hero__cta">Hubungi Saya</a>
+    <div class="scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="section about">
+    <div class="section__head">
+      <h2>Tentang Zamm</h2>
+    </div>
+    <div class="about__grid">
+      <p class="about__lead">
+        Rasa penasaran adalah titik awal dari semuanya. Bagi Zamm, komputer, AI, dan kode bukan sekadar alat — melainkan sistem yang layak dipahami sampai ke akarnya, bukan hanya diikuti instruksinya.
+      </p>
+      <div class="about__body">
+        <p>
+          Cara berpikir Zamm cenderung logis: sebelum mempercayai sesuatu, ia ingin tahu kenapa hal itu bekerja seperti itu. Kebiasaan ini yang membawanya masuk lebih dalam ke dunia teknologi — mulai dari cara komputer memproses data, cara AI belajar dari pola, sampai cara sebuah program disusun baris demi baris.
+        </p>
+        <p>
+          Zamm sadar betul bahwa kemampuan saja tidak cukup tanpa arah. Karena itu ia terus membangun pengalaman, mengasah skill, dan mencoba menyelesaikan masalah nyata — bukan cuma latihan di atas kertas. Tujuannya sederhana: menjadi seseorang yang benar-benar bisa diandalkan di bidang yang ia tekuni.
+        </p>
+        <p>
+          Website ini adalah salah satu bentuk usaha itu — tempat untuk memperkenalkan diri, menunjukkan apa yang sedang dipelajari dan dikerjakan, sekaligus membuka ruang bagi siapa pun yang ingin dibantu lewat kemampuan yang dimiliki.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILL -->
+  <section id="skill" class="section skills">
+    <div class="section__head">
+      <h2>Skill &amp; Ketertarikan</h2>
+    </div>
+    <div class="skills__grid">
+
+      <article class="skill-card">
+        <span class="skill-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="12" rx="1.5" stroke="currentColor" stroke-width="1.6"/><path d="M8 20h8M12 16v4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+        <h3>Computer &amp; Technology</h3>
+        <p>Memahami cara kerja perangkat dan sistem, bukan hanya cara memakainya.</p>
+      </article>
+
+      <article class="skill-card">
+        <span class="skill-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M12 3v3M12 18v3M21 12h-3M6 12H3M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1M18.4 18.4l-2.1-2.1M7.7 7.7 5.6 5.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+        <h3>Artificial Intelligence</h3>
+        <p>Tertarik pada cara mesin belajar dari data dan pola di baliknya.</p>
+      </article>
+
+      <article class="skill-card">
+        <span class="skill-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M8 8 4 12l4 4M16 8l4 4-4 4M14 5l-4 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <h3>Coding / Programming</h3>
+        <p>Menyusun logika jadi program yang berjalan dan benar-benar dipakai.</p>
+      </article>
+
+      <article class="skill-card">
+        <span class="skill-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3 3 8l9 5 9-5-9-5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M3 12l9 5 9-5M3 16l9 5 9-5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </span>
+        <h3>Problem Solving</h3>
+        <p>Menikmati proses membongkar masalah sampai menemukan solusinya.</p>
+      </article>
+
+      <article class="skill-card">
+        <span class="skill-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a4 4 0 0 0-4 4c0 1.6.8 2.4 1.5 3.2.5.6.8 1.1.8 1.8H14c0-.7.3-1.2.8-1.8.7-.8 1.5-1.6 1.5-3.2a4 4 0 0 0-4-4Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9.5 15.5h5M10 18.5h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </span>
+        <h3>Logical Thinking</h3>
+        <p>Mengambil keputusan berdasarkan alasan yang jelas, bukan tebakan.</p>
+      </article>
+
+      <article class="skill-card">
+        <span class="skill-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="13" y="3" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="3" y="13" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="13" y="13" width="8" height="8" rx="1.5" stroke="currentColor" stroke-width="1.6"/></svg>
+        </span>
+        <h3>Digital Projects</h3>
+        <p>Senang membangun hal kecil demi kecil sampai jadi sesuatu yang utuh.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- JASA -->
+  <section id="jasa" class="section services">
+    <div class="section__head">
+      <h2>Jasa yang Bisa Saya Bantu</h2>
+      <p class="section__desc">Skill ini masih terus dikembangkan, tapi sudah bisa dipakai untuk membantu hal-hal berikut.</p>
+    </div>
+    <div class="services__grid">
+
+      <article class="service-card">
+        <h3>Website Sederhana</h3>
+        <p>Bantu membuat website pribadi atau landing page sederhana sesuai kebutuhan.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Coding &amp; Programming</h3>
+        <p>Bantu mengerjakan tugas coding, memperbaiki bug, atau menyusun program kecil.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Project Teknologi</h3>
+        <p>Bantu diskusi dan eksekusi ide untuk project teknologi berskala kecil-menengah.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>AI-Related Assistance</h3>
+        <p>Bantu eksplorasi penggunaan AI untuk menyelesaikan pekerjaan sehari-hari.</p>
+      </article>
+
+      <article class="service-card">
+        <h3>Tugas &amp; Project Komputer</h3>
+        <p>Bantu menyelesaikan tugas atau project yang berhubungan dengan komputer.</p>
+      </article>
+
+    </div>
+    <div class="services__cta">
+      <a href="#kontak" class="btn btn--primary">Hubungi Saya</a>
+    </div>
+  </section>
+
+  <!-- KONTAK -->
+  <section id="kontak" class="section contact">
+    <div class="section__head">
+      <h2>Let's Connect</h2>
+      <p class="section__desc">Ada project, pertanyaan, atau sekadar mau ngobrol soal teknologi? Silakan hubungi lewat salah satu platform berikut.</p>
+    </div>
+
+    <div class="contact__grid">
+
+      <a class="contact-card contact-card--whatsapp" href="https://wa.me/6282271173805" target="_blank" rel="noopener noreferrer" aria-label="Hubungi Zamm lewat WhatsApp">
+        <span class="contact-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.2 2.4 3.2 4.4 5.6 5.6l1.9-1.9c.2-.2.6-.3.9-.2 1 .3 2 .5 3.1.5.5 0 .9.4.9.9V19c0 .5-.4.9-.9.9C9.4 19.9 4.1 14.6 4.1 8c0-.5.4-.9.9-.9h3.3c.5 0 .9.4.9.9 0 1.1.2 2.1.5 3.1.1.3 0 .7-.2.9L6.6 10.8Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="contact-card__body">
+          <span class="contact-card__title">WhatsApp</span>
+          <span class="contact-card__detail">+62 822-7117-3805</span>
+        </span>
+        <span class="contact-card__arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="contact-card contact-card--instagram" href="https://www.instagram.com/zamm.ne?igsi=aGs0MHRyaXI5NHVj" target="_blank" rel="noopener noreferrer" aria-label="Kunjungi Instagram Zamm">
+        <span class="contact-card__icon contact-card__icon--instagram" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5.5" stroke="white" stroke-width="1.7"/><circle cx="12" cy="12" r="4.2" stroke="white" stroke-width="1.7"/><circle cx="17.3" cy="6.7" r="1.1" fill="white"/></svg>
+        </span>
+        <span class="contact-card__body">
+          <span class="contact-card__title">Instagram</span>
+          <span class="contact-card__detail">@zamm.ne</span>
+        </span>
+        <span class="contact-card__arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a class="contact-card contact-card--discord" href="https://discord.com/users/zamm.ne" target="_blank" rel="noopener noreferrer" aria-label="Hubungi Zamm lewat Discord">
+        <span class="contact-card__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.3 5.3A17.3 17.3 0 0 0 16.1 4l-.2.4c1.6.4 2.5.9 3.4 1.5-1.4-.7-2.8-1.1-4.2-1.3a11 11 0 0 0-4.2 0c-1.4.2-2.8.6-4.2 1.3.9-.6 1.9-1.1 3.4-1.5L9.9 4a17.3 17.3 0 0 0-4.2 1.3C3.4 8.8 2.8 12.2 3 15.6a17.4 17.4 0 0 0 5.1 2.6l.6-1c-.9-.3-1.7-.7-2.5-1.2l.4-.3c2.3 1 4.8 1.6 7.4 1.6 2.6 0 5.1-.6 7.4-1.6l.4.3c-.8.5-1.6.9-2.5 1.2l.6 1a17.4 17.4 0 0 0 5.1-2.6c.3-3.9-.6-7.3-2.7-10.3ZM9.7 13.6c-.8 0-1.5-.8-1.5-1.7 0-1 .7-1.7 1.5-1.7.9 0 1.6.8 1.5 1.7 0 1-.6 1.7-1.5 1.7Zm5.6 0c-.8 0-1.5-.8-1.5-1.7 0-1 .7-1.7 1.5-1.7.9 0 1.6.8 1.5 1.7 0 1-.6 1.7-1.5 1.7Z"/></svg>
+        </span>
+        <span class="contact-card__body">
+          <span class="contact-card__title">Discord</span>
+          <span class="contact-card__detail">zamm.ne</span>
+        </span>
+        <span class="contact-card__arrow" aria-hidden="true">↗</span>
+      </a>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Zamm. Built with curiosity and technology.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
